@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <script>
+        function initialize() {
+            messageOutput = document.getElementById("output");
+            messageOutput2 = document.getElementById("output2");
+            messageOutput3 = document.getElementById("output3");
+            message = "Die 1: ";
+            message2 = "Die 2: ";
+            message3 = "Sum: ";
+        }
+        function display() {
+            messageOutput.innerHTML = message;
+            messageOutput2.innerHTML = message2;
+            messageOutput3.innerHTML = message3;
+        }
+        function randInt() {
+            x = Math.floor((Math.random() * 6) + 1);
+            y = Math.floor((Math.random() * 6) + 1);
+            message = "Die 1: " + x;
+            message2 = "Die 2: " + y;
+            message3 = "Sum: " + (x + y);
+            display();
+        }
+    </script>
+</head>
+<body onload = "initialize();"> 
+    <h1>Double Trouble &#40;Don't Gamble, Kids&#41;</h1>
+    <br>
+    <br>
+    <button onclick = "randInt();">Generate</button>
+    <br>
+    <p id = "output">Die 1: </p>
+    <br>
+    <p id = "output2">Die 2: </p>
+    <br>
+    <p id = "output3">Sum: </p>
+</body>
+</html>
