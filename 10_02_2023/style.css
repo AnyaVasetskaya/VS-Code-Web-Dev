@@ -1,0 +1,40 @@
+body {
+    background-image: url("dice.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1250px;
+}
+
+h1 {
+    font-family: "Lucida Console", 	"Courier New", monospace;
+    font-size: 70px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(137, 115, 200);
+    padding: 65px;
+}
+
+p {
+    font-family: "Lucida Console", 	"Courier New", monospace;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(56, 45, 84);
+}
+
+.center {
+    text-align: center;
+}
+
+.Generate {
+    font-family: "Lucida Console", 	"Courier New", monospace;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgb(13, 4, 49);
+    background-color: rgb(149, 126, 166);
+    color: rgb(73, 58, 94);
+    border-radius: 10px;
+    cursor: pointer;
+}
