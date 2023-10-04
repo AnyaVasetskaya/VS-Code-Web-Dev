@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anya's Favorites</title>
+    <link rel="stylesheet" href="styleFavorites.css">
 </head>
 <body>
+    <div class="buttons">
+        <button class="button" onclick = "window.location.href = 'index.html';">Home</button>
+        <button class="button" onclick = "window.location.href = 'skills.html';">Skills</button>
+        <button class="button" onclick = "window.location.href = 'spots.html';">Spots</button>
+    </div>
     <h1>Hobbies/Interests?</h1>
     <h3>> Anime, Music &#40;mostly JP or KR&#41;, Skincare, Baking</h3>
     <br>
@@ -36,13 +42,20 @@
     </ul>
     <br>
     <p>Here is one of my favorite songs!</p>
-    <audio controls>
+    <div class="song">
+        <iframe  src="https://open.spotify.com/embed/track/3HzN4vC4BUatIwvAUa3Fi9?utm_source=generator" width="15%" height="352" frameBorder="0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+    <!-- <audio controls>
         <source src="Mili-Salt,Pepper,Birds,andtheThoughtPolice.mp3"
         type="audio/mp3" />
-    </audio>
+    </audio> -->
     <br>
-    <p>What I've successfully baked so far &#40;or, at least, some of it&#41;!:</p>
-    <table>
+    <p>And a trailer of one of my favorite anime, Bungo Stray Dogs!</p>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JvJ0a6PXIK8?si=DyR6FS8hXVEMrMUa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <p>What I've successfully baked so far &#40;or, at least, some of it&#41;!</p>
+    <table style="border:1px solid black">
         <tr>
             <th>Cake</th>
             <td>Tiramisu</td>
