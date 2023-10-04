@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(51, 42, 74);
+}
+
+h1 {
+    font-family: "Lucida Console", 	"Courier New", monospace;
+    font-size: 70px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(137, 115, 200);
+}
+
+h2 {
+    font-family: "Lucida Console", 	"Courier New", monospace;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(224, 219, 237);
+}
+
+p {
+    font-family: "Lucida Console", 	"Courier New", monospace;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(172, 160, 202);
+}
+
+img {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button {
+    font-family: "Lucida Console", 	"Courier New", monospace;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 30px;
+    border: 3px solid rgba(255, 255, 255);
+    background-color: rgb(49, 25, 72);
+    box-shadow: 1px 1px 2px rgba(49, 49, 185);
+    color: rgb(211, 205, 225);
+    border-radius: 10px 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.img {
+    text-align: center;
+}
