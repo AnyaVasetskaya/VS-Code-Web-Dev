@@ -76,3 +76,10 @@ h5 {
 .img {
     text-align: center;
 }
+
+footer {
+    font-family: "Lucida Console", 	"Courier New", monospace;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
